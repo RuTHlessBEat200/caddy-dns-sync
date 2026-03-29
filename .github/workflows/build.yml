@@ -34,9 +34,10 @@ jobs:
         env:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
+          GOAMD64: v1
           CGO_ENABLED: 0
         run: |
-          go build -ldflags="-s -w" -o caddy-dns-sync-${{ matrix.goos }}-${{ matrix.goarch }}
+          go build -ldflags="-s -w" -o caddy-dns-sync-${{ matrix.goos }}-${{ matrix.goarch }} ./cmd/caddy-dns-sync
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
