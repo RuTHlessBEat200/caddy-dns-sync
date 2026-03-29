@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/yourusername/caddy-dns-sync/pkg/config"
-	"github.com/yourusername/caddy-dns-sync/pkg/parser"
-	"github.com/yourusername/caddy-dns-sync/pkg/state"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/config"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/parser"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/state"
 )
 
 const (

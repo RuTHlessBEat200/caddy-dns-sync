@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/yourusername/caddy-dns-sync/pkg/config"
-	"github.com/yourusername/caddy-dns-sync/pkg/providers"
-	"github.com/yourusername/caddy-dns-sync/pkg/state"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/config"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/providers"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/state"
 )
 
 func syncDNS(cfg *config.ProviderConfig, domains []string, dnsState *state.DNSState) error {

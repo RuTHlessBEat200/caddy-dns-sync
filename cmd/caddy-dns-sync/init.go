@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/yourusername/caddy-dns-sync/pkg/config"
+	"github.com/RuTHlessBEat200/caddy-dns-sync/pkg/config"
 )
 
 const (

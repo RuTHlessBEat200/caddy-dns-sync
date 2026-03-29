@@ -32,12 +32,12 @@ Download the latest release for your architecture:
 
 ```bash
 # AMD64
-wget https://github.com/yourusername/caddy-dns-sync/releases/latest/download/caddy-dns-sync-linux-amd64
+wget https://github.com/RuTHlessBEat200/caddy-dns-sync/releases/latest/download/caddy-dns-sync-linux-amd64
 chmod +x caddy-dns-sync-linux-amd64
 sudo mv caddy-dns-sync-linux-amd64 /usr/local/bin/caddy-dns-sync
 
 # ARM64
-wget https://github.com/yourusername/caddy-dns-sync/releases/latest/download/caddy-dns-sync-linux-arm64
+wget https://github.com/RuTHlessBEat200/caddy-dns-sync/releases/latest/download/caddy-dns-sync-linux-arm64
 chmod +x caddy-dns-sync-linux-arm64
 sudo mv caddy-dns-sync-linux-arm64 /usr/local/bin/caddy-dns-sync
 ```
@@ -274,7 +274,7 @@ Best practices:
 ### Build
 
 ```bash
-git clone https://github.com/yourusername/caddy-dns-sync.git
+git clone https://github.com/RuTHlessBEat200/caddy-dns-sync.git
 cd caddy-dns-sync
 go build -o caddy-dns-sync
 ```
